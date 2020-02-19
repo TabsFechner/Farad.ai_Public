@@ -2,11 +2,12 @@ body, html{
   height: 100%;
 }
 
-.hero-image-landing {
+.background-img {
   background-image: url(./Assets/black_square.svg);
-  height: 95%;
   background-repeat: no-repeat;
-  position: ab;
+  background-attachment: fixed;
+  height: 100%;
+  position: 100% 100%;
 }
 
 .row {
@@ -20,17 +21,7 @@ body, html{
 }
 
 #about_text {
-  margin-left: 10%;
-  padding-right: 10%;
-  padding-top: 10%;
-}
-
-.display-1 {
-  text-align: center;
-}
-
-.container-fluid {
-  height: 100%;
+  padding: 10%;
 }
 
 .fill-height {

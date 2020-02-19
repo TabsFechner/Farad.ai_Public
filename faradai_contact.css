@@ -11,18 +11,13 @@ body, html{
   text-align: left;
 }
 
-.jumbotron{
-  text-align: center;
-}
-
 .col-md-6 {
   padding: 50px;
 }
 
-#address {
-  padding-left: 100px;
+.address {
   text-align: left;
-  line-height: 10px;
+  text-indent: 10%;
 }
 
 #img_rocket {

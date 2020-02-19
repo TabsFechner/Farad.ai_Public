@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farad.ai - Contact</title>
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="faradai_contact.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Girassol&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
@@ -45,27 +46,30 @@
       <h1 class="display-2">Contact Us</h1>
       <br>
       <div class="row align-items-center">
-        <div class="col-md-6 col-12">
+        <div class="col-12 col-md-6">
           <p>We're glad to have you with us for the journey! 😊</p>
           <p>Find us at our office near Paddington Station, London.
-            We work in a shared office space with two other startups. Let us know if you're in the area.</p>
+            We work in a shared office space with over 10 other startups in the same
+            building. Let us know if you're in the area and stop by for a coffee on us.</p>
           <p>We're also in San Francisco! On the sunny west-coast.</p>
         </div>
-        <div id="address" class="col-md-3 col-12">
-          <p><strong>Ministry of Startups</strong></p>
-          <p>West Two Health</p>
-          <p>Praed St</p>
-          <p>Tyburnia</p>
-          <p>London</p>
-          <p>W2 1NR</p>
+        <div class="col-12 col-md-3">
+          <div class="container address">
+            <p><strong>Farad.ai</strong></p>
+            <p>33-35 Praed St</p>
+            <p>Paddington</p>
+            <p>London</p>
+            <p>W2 1NR</p>
+          </div>
         </div>
-        <div id="address" class="col-md-3 col-12">
-          <p><strong>Farad.ai</strong></p>
-          <p>1770 Post Street #XXX</p>
-          <p>San Francisco, CA</p>
-          <p>94115</p>
-          <p>San Francisco</p>
-          <p>USA</p>
+        <div class="col-12 col-md-3">
+          <div class="container address">
+            <p><strong>Farad.ai</strong></p>
+            <p>1770 Post Street</p>
+            <p>San Francisco</p>
+            <p>94115</p>
+            <p>CA</p>
+          </div>
         </div>
       </div>
     </div>
@@ -77,32 +81,32 @@
             <img id="img_rocket" class="img-fluid" src="./Assets/rocket.png">
           </div>
           <div class="col-md-6 col-12">
-            <form>
+            <form action="https://formspree.io/xdoznkdy" method="POST">
               <div class="form-group">
                 <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" required>
+                <input id="firstName" type="text" class="form-control" name="First Name" required>
               </div>
               <div class="form-group">
                 <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" required>
+                <input id="lastName" type="text" class="form-control" name="Last Name" required>
               </div>
               <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <input id="email" type="email" class="form-control" name="Email" aria-describedby="emailHelp" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="interestCheck">
-                <label class="form-check-label" for="interestCheck">I'm interested!</label>
+              <div class="form-group">
+                <label for="exampleTextarea">Leave us a message...</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3" name="Message"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" value="send">Submit</button>
             </form>
           </div>
         </div>
       </div>
 
       <div class="container">
-        <p>© ALIAN Ltd.</p>
+        <p>© Farad.ai is a trading name of ALIAN Ltd.</p>
         <p>All rights reserved.</p>
       </div>
     </div>
